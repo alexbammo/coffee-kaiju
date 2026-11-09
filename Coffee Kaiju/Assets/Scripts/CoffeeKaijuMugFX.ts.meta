@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/41c93ef0-d12b-48ea-87a4-7d5761bb2dad>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> afeb74ac-258d-4b7c-9673-f8cbc8109ef7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> afeb74ac-258d-4b7c-9673-f8cbc8109ef7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> be38592b-23e6-45dc-84bf-de4d3f13dc0d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/be38592b-23e6-45dc-84bf-de4d3f13dc0d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f4158a3f-3d59-45c9-bf27-1ad3bde3a8ad
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    coffeeColor: false
+    foamColor: false
+    glowColor: false
+    litMaterial: false
+    steamMaterial: false
+    steamOpacity: false
+    unlitMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - litMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      unlitMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      steamMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      coffeeColor: !<Vec3> {x: 1.000000, y: 0.620000, z: 0.240000}
+      foamColor: !<Vec3> {x: 0.930000, y: 0.800000, z: 0.620000}
+      glowColor: !<Vec3> {x: 0.350000, y: 0.950000, z: 1.000000}
+      steamOpacity: 0.350000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CoffeeKaijuMugFX – virtual mug, foam, steam, bubbles</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Asset.Material litMaterial {"hint":"Lit material template (SimplePBR) for the white mug"}'
+    - '// @input Asset.Material unlitMaterial {"hint":"Unlit material template for coffee, foam, steam, bubbles and ripples"}'
+    - '// @input Asset.Material steamMaterial {"hint":"Soft puff material for the steam (unlit, textured, alpha-blended)"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input vec3 coffeeColor = "{1.0, 0.62, 0.24}" {"hint":"Warm amber of the lit coffee pool (keep it bright: the display is additive)", "widget":"color"}'
+    - '// @input vec3 foamColor = "{0.93, 0.80, 0.62}" {"hint":"Pale caramel foam on top of the coffee", "widget":"color"}'
+    - '// @input vec3 glowColor = "{0.35, 0.95, 1.0}" {"hint":"Glow colour of bubbles, fin ripples and the hover highlight", "widget":"color"}'
+    - '// @input float steamOpacity = 0.45 {"hint":"Peak opacity of a steam puff when the coffee is fresh", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/93e011fa-6498-4bae-8376-c52204e52a52>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c3e0dbe3-7270-44f1-b23e-4af11a3d10a4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c3e0dbe3-7270-44f1-b23e-4af11a3d10a4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c07f342e-052d-4877-a529-4a9a689b93b5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c07f342e-052d-4877-a529-4a9a689b93b5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 19423f85-c951-49df-b2e6-d9362b419374
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    label: false
+    tickColor: false
+    unlitMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - unlitMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      tickColor: !<Vec3> {x: 0.350000, y: 0.950000, z: 1.000000}
+      label: Ready
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CoffeeKaijuReadyTickUI – \"Ready\" tick above the mug</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Asset.Material unlitMaterial {"hint":"Unlit material used as a template for the tick mark"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input vec3 tickColor = "{0.35, 0.95, 1.0}" {"hint":"Tick colour", "widget":"color"}'
+    - '// @input string label = "Ready" {"hint":"Label shown under the tick"}'
+    - '// @ui {"widget":"group_end"}'

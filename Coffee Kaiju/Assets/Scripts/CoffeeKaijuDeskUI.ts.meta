@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/f5346954-7ed1-4c3a-b059-07635c7f201f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e2efb81b-6af5-4bdc-8994-120c5a5ebeb8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e2efb81b-6af5-4bdc-8994-120c5a5ebeb8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> bd666263-f5d5-47b5-80bc-342cc67e9ac4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/bd666263-f5d5-47b5-80bc-342cc67e9ac4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 34dade2c-e504-425e-8ff2-37b72e7da89d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    depthCm: false
+    litMaterial: false
+    widthCm: false
+    woodColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - litMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      widthCm: !<float> 60.000000
+      depthCm: !<float> 40.000000
+      woodColor: !<Vec3> {x: 0.660000, y: 0.450000, z: 0.270000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CoffeeKaijuDeskUI – wooden desk slab stand-in</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Asset.Material litMaterial {"hint":"Lit material template (SimplePBR) for the wood"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float widthCm = 60 {"hint":"Desk width in cm (brief default: 60)", "widget":"slider", "min":30, "max":120, "step":1}'
+    - '// @input float depthCm = 40 {"hint":"Desk depth in cm (brief default: 40)", "widget":"slider", "min":20, "max":80, "step":1}'
+    - '// @input vec3 woodColor = "{0.66, 0.45, 0.27}" {"hint":"Wood colour (keep it mid-bright: dark colours vanish on the additive display)", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'

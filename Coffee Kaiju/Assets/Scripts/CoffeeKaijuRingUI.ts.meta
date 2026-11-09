@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/77280089-1867-47ad-9f23-ad1c52322723>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3f6577dd-f27c-4bd1-8679-5dbc651e9be9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3f6577dd-f27c-4bd1-8679-5dbc651e9be9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0dba1a46-59aa-4b17-bc14-058c6e91bfbe
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0dba1a46-59aa-4b17-bc14-058c6e91bfbe>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: b1ad27e4-f850-4b52-9d2a-78fc3af934f0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    diameterCm: false
+    fillColor: false
+    textSize: false
+    trackColor: false
+    unlitMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - unlitMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      diameterCm: !<float> 8.000000
+      fillColor: !<Vec3> {x: 0.350000, y: 0.950000, z: 1.000000}
+      trackColor: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      textSize: !<float> 48.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CoffeeKaijuRingUI – countdown ring above the mug</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Asset.Material unlitMaterial {"hint":"Unlit material used as a template; cloned for the track, arc and highlight"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float diameterCm = 8 {"hint":"Ring diameter in cm (brief: about 8 cm across)", "widget":"slider", "min":4, "max":14, "step":0.5}'
+    - '// @input vec3 fillColor = "{0.35, 0.95, 1.0}" {"hint":"Colour of the arc that empties as the countdown runs", "widget":"color"}'
+    - '// @input vec3 trackColor = "{1.0, 1.0, 1.0}" {"hint":"Colour of the thin background track and the minutes text", "widget":"color"}'
+    - '// @input float textSize = 90 {"hint":"Text size of the minutes in the middle of the ring", "widget":"slider", "min":10, "max":120, "step":1}'
+    - '// @ui {"widget":"group_end"}'

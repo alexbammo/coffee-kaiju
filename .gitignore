@@ -1,0 +1,16 @@
+# Licensed source art (Synty / Mixamo raw files) - never committed
+art/src/
+art/mixamo/
+# Imported copies of the licensed kaiju and pack sounds inside the Lens project
+Coffee Kaiju/Assets/Art/Kaiju/
+Coffee Kaiju/Assets/Audio/
+Coffee Kaiju/Assets/Art/FX/
+# Lens Studio caches
+**/Cache/
+**/Workspaces/
+**/.DS_Store
+*.lspkg.tmp
+# Lens Studio generated / local
+**/Support/
+**/PluginsUserPreferences/
+*.lock
