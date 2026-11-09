@@ -4,7 +4,7 @@ A Lens for SPECS. Fresh coffee is too hot to drink, so a tiny glowing kaiju leap
 
 Entry for **Learn AR with SPECS** (Devpost, November 2026). Planned with the Devpost Learn `plan-lens` skill and built with Snap's CLAD agents through the Lens Studio MCP.
 
-- Video: https://youtu.be/Vgckv9N9bfU
+- Video: https://youtu.be/5JTMI94DMP0
 - Repo: https://github.com/alexbammo/coffee-kaiju
 
 ## What's here

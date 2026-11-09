@@ -4,7 +4,7 @@
 
 **Tagline:** A tiny kaiju swims in your too-hot coffee and roars when it's ready to sip.
 
-**Links:** Video: https://youtu.be/Vgckv9N9bfU · Repo: https://github.com/alexbammo/coffee-kaiju
+**Links:** Video: https://youtu.be/5JTMI94DMP0 · Repo: https://github.com/alexbammo/coffee-kaiju
 
 ## Inspiration
 I've loved kaiju since watching Godzilla as a kid, then feeding coins into Rampage at the arcade, and later I made Smashy City for Android and iOS. Coffee is my other daily habit. I've burnt my tongue on a cup I couldn't wait for, and forgotten plenty until they went cold. A phone timer is one more screen to check. So I put the two together: the mug itself tells you when it's ready, and a tiny monster makes the wait fun.
